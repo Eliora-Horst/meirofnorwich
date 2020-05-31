@@ -27,7 +27,7 @@
 	}
 	.mobile-menu a.icon{
 		background: none;
-		background-image: url("../images/titlebackground.png");
+		background-image: url("/images/titlebackground.png");
     	background-position: center right;
 		display: block;
 		position: absolute;
@@ -38,6 +38,7 @@
    		justify-content: space-between;
    		color: black;
    		padding-left: 100%;
+   		padding-right: 5%;
    		font-size: 45px;
    		transition: 0.18s;
 	}
@@ -59,6 +60,7 @@
 		background-image: url("../images/LogoMobile.png");
 		background-size: contain;
 		background-repeat: no-repeat;
+		background-size: 65%;
 	}
 
 	/*Historical Background*/
