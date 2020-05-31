@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>Put A Curse On My Enemy</title>
+        </titleStmt>
+        <publicationStmt>
+           <publisher>Unknown</publisher>
+           <pubPlace>Unknown, possibly France</pubPlace>
+           <date>c 1300</date>
+        </publicationStmt>
+        <sourceDesc>
+           <p>This poem appears on ff. 116r in MSS Vat.ebr.402</p>
+           <p>Written in Hebrew, with Ashkenazic semi-cursive scripts.</p>
+           <p>English translation.</p>
+           <msDesc>
+              <msIdentifier>
+                 <repository>Vatican Digital Library</repository>
+                 <idno>Vat.ebr.402</idno>
+              </msIdentifier>
+              <physDesc>
+                 <objectDesc form="codex">
+                    <supportDesc>
+                       <support>Parchment</support>
+                       <extent>
+                          <measure unit="ff" quantity="125">125 ff in the manuscript.</measure>
+                       </extent>
+                       <dimensions type="page" unit="millimeter">
+                          <height>290</height>
+                          <width>240</width>
+                       </dimensions>
+                    </supportDesc>
+                    <layoutDesc>
+                       <layout columns="2">In two columns</layout>
+                    </layoutDesc>
+                 </objectDesc>
+                 <handDesc>
+                    <p>Written in at least four distinct hands.</p>
+                    <p>This poem was written by a scribe who gave no attribution to themselves.</p>
+                 </handDesc>
+              </physDesc>
+              <additional>
+                 <adminInfo>
+                    <custodialHist>
+                       <p>Manuscript was written and compiled approximately in 1300.</p>
+                       <p>Most likely written in France.</p>
+                       <p>There is no history of the manuscript between this earliest date
+                          and 1887, when the manuscript was discovered in the Vatican Library by 
+                          Abraham Berliner.</p>
+                    </custodialHist>
+                 </adminInfo>
+              </additional>
+           </msDesc>
+        </sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <lg xml:id="Curse.Eng.01" type="stanza">
+            <l xml:id="Curse.Eng.01.01">Put a curse on my enemy, for all deceive their brothers,</l>
+            <l xml:id="Curse.Eng.01.02">When will You say to the house of Jacob, “Come let us walk in the light."</l>
+            <l xml:id="Curse.Eng.01.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+         <lg xml:id="Curse.Eng.02" type="stanza">
+            <l xml:id="Curse.Eng.02.01">Rend their closed hearts, they who brought harm to those who come in your name,</l>
+            <l xml:id="Curse.Eng.02.02">I waited for good and evil arrived, yet I hoped for light,</l>
+            <l xml:id="Curse.Eng.02.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+         <lg xml:id="Curse.Eng.03" type="stanza">
+            <l xml:id="Curse.Eng.03.01">The words of the seers’ were careless, for the foe has mocked Your children,</l>
+            <l xml:id="Curse.Eng.03.02">Until he no longer knew which path lead to the light,</l>
+            <l xml:id="Curse.Eng.03.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+         <lg xml:id="Curse.Eng.04" type="stanza">
+            <l xml:id="Curse.Eng.04.01">In the land of heavy-hearted and exhausted, men’s reproachful voices are heard,</l>
+            <l xml:id="Curse.Eng.04.02">And we are silent and await the light.</l>
+            <l xml:id="Curse.Eng.04.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+         <lg xml:id="Curse.Eng.05" type="stanza">
+            <l xml:id="Curse.Eng.05.01">They make heavy our yoke, they are finishing us off.</l>
+            <l xml:id="Curse.Eng.05.02">Always we will be told, “We will disgrace them until the light.”</l>
+            <l xml:id="Curse.Eng.05.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+         <lg xml:id="Curse.Eng.06" type="stanza">
+            <l xml:id="Curse.Eng.06.01">Then let their victory stain Your garment, Your beloved’s heart is aflame,</l>
+            <l xml:id="Curse.Eng.06.02">But she will be consoled, Her Lords remains until the light,</l>
+            <l xml:id="Curse.Eng.06.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+         <lg xml:id="Curse.Eng.07" type="stanza">
+            <l xml:id="Curse.Eng.07.01">Have you forgotten to be merciful, my G-d,?  When will you gather your camps,</l>
+            <l xml:id="Curse.Eng.07.02">Scattered to the corners of the Earth, as infants who have yet to see the light,</l>
+            <l xml:id="Curse.Eng.07.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+         <lg xml:id="Curse.Eng.08" type="stanza">
+            <l xml:id="Curse.Eng.08.01">Let the King restore His banished one, let Him smell the scent of the offering,</l>
+            <l xml:id="Curse.Eng.08.02">The foes who foul the scent, never will they see the light,</l>
+            <l xml:id="Curse.Eng.08.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+         <lg xml:id="Curse.Eng.09" type="stanza">
+            <l xml:id="Curse.Eng.09.01">And if You increased Israel’s affliction, be abundant in your benevolence to him,</l>
+            <l xml:id="Curse.Eng.09.02">For he despairs of his dwelling place, on your paths shines the light,</l>
+            <l xml:id="Curse.Eng.09.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+         <lg xml:id="Curse.Eng.10" type="stanza">
+            <l xml:id="Curse.Eng.10.01">And if his vision he has delayed, the appointed time has passed,</l>
+            <l xml:id="Curse.Eng.10.02">Let them release their hold on us, one and all, until the light,</l>
+            <l xml:id="Curse.Eng.10.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>         
+         <lg xml:id="Curse.Eng.11" type="stanza">
+            <l xml:id="Curse.Eng.11.01">If the vision is hidden, and his dreams have no interpreter,</l>
+            <l xml:id="Curse.Eng.11.02">Why should the glorious crown remain with the wicked until the light,</l>
+            <l xml:id="Curse.Eng.11.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+         <lg xml:id="Curse.Eng.12" type="stanza">
+            <l xml:id="Curse.Eng.12.01">Even if his sins are intemperate, why do his enemies wage war,</l>
+            <l xml:id="Curse.Eng.12.02">They whose mouths have spoken arrogantly, they rebel against the light,</l>
+            <l xml:id="Curse.Eng.12.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+         <lg xml:id="Curse.Eng.13" type="stanza">
+            <l xml:id="Curse.Eng.13.01">They scattered him with their horns, he hoped in hidden prophesies,</l>
+            <l xml:id="Curse.Eng.13.02">The seers have sealed themselves, and do not know the light,</l>
+            <l xml:id="Curse.Eng.13.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+         <lg xml:id="Curse.Eng.14" type="stanza">
+            <l xml:id="Curse.Eng.14.01">Evil men have knocked down his crown, hoping to annihilate him,</l>
+            <l xml:id="Curse.Eng.14.02">They cast him into the prison, and in darkness he hoped for light,</l>
+            <l xml:id="Curse.Eng.14.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+         <lg xml:id="Curse.Eng.15" type="stanza">
+            <l xml:id="Curse.Eng.15.01">Raise him up before his end, before he is lost in exile,</l>
+            <l xml:id="Curse.Eng.15.02">They boast of his annihilation, they treat the darkness as light,</l>
+            <l xml:id="Curse.Eng.15.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+         <lg xml:id="Curse.Eng.16" type="stanza">
+            <l xml:id="Curse.Eng.16.01">He has been waiting always, day after day, for his consolation,</l>
+            <l xml:id="Curse.Eng.16.02">Mighty and Awesome One in Heaven, who brings justice into the light,</l>
+            <l xml:id="Curse.Eng.16.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+         <lg xml:id="Curse.Eng.17" type="stanza">
+            <l xml:id="Curse.Eng.17.01">If you have given me unto my enemies, arise and plead my cause,</l>
+            <l xml:id="Curse.Eng.17.02">Establish the Messiah’s reign, and in Your light will it be seen.</l>
+            <l xml:id="Curse.Eng.17.03">Mighty are you and full of light, the darkness You will turn to light.</l>
+         </lg>
+      </body>
+  </text>
+</TEI>

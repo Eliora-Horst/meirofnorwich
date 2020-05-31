@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link rel="stylesheet" type="text/css" href="../css/mobile.css">
+        <link href="https://fonts.googleapis.com/css?family=Suez+One&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="../JS/mobileMenu.js"></script>
+        <meta charset="utf-8">
+        <title>The Poetry of Meir of Norwich</title>
+    </head>
+    <body>
+        <div class="topNav">
+            <nav>
+                <table>
+                    <tr>
+                        <td><a href="meirMain.html">
+                            <img src="../images/Logo.png">
+                        </a></td>
+                        <td></td>
+                        <td><a href="thePoems.html">THE POEMS</a></td>
+                        <td><a href="thePoet.html">THE POET</a></td>
+                        <td><a href="theManuscript.html">THE MANUSCRIPT</a></td>
+                        <td><a href="about.html">ABOUT</a></td>
+                    </tr>
+                </table>
+
+                <div class="mobile-menu">
+                    <a href="meirMain.html" class="active"></a>
+                    <div id="myLinks">
+                        <a href="thePoems.html">THE POEMS</a>
+                        <a href="thePoet.html">THE POET</a>
+                        <a href="theManuscript.html">THE MANUSCRIPT</a>
+                        <a href="about.html">ABOUT</a>
+                    </div>
+                    <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <h1 class="manHeader">About the Project</h1>
+        <div class="manuscript mainBody">
+            <h1>Contact</h1>
+            <h3>Eliora Horst</h3>
+            <h3>ehorst@luc.edu</h3>
+            <h3>https://github.com/Eliora-Horst</h3>
+            
+            <h1>Web Application Development</h1>
+            <p>This website is built from scratch using HTML, CSS, JavaScript, and XML.  <br/><br/>I decided to use JavaScrip to pull the XML into the HTML pages (as opposed to the more traditional XSLT) for several reasons.  I find JavaScript to be a more dynamic web development tool , and by crafting functions in JavaScript I have closer control on how the data is output.  Using JavaScript also made it easier for this developer to integrate the XML into the HTML page seamlessly.</p>
+
+            <h1>Encoding with Hebrew</h1>
+            <p>One of the primary issues with encoding a right to left language like Hebrew is the majority of modern text editors are designed for English or other left to right languages.  This makes encoding Hebrew into XML a tedious process.  There are some text editors (such as Oxygen) which purport to support right to left languages, but the system is still awkard.  The tags of XML still register as English, and as the text editor recognizes punctuation as inherently left to right, attempting to add punction to Hebrew within the XML is tricky.  Also attempting to insert tags into the text afterwards was impossible, so I needed to plan out the text very specifically in order for it to render properly.</p>
+            <h3>Encoding Acrostics</h3>
+            <p>As of yet (here meaning Spring of 2020) there exist no standard for encoding acrostics in TEI.  As this is a key element to the construction of Meir of Norwich's poetry, I am currently developing a set of custom XML tags I can use to properly encode this essential feature of the poetry.</p>
+            <div class="buttons">
+                <h3>XML Code</h3>
+                <p class="XMLbutton"><a href="../XML/PutACurseOnMyEnemy.xml">Put A Curse on My Enemy - Hebrew</a></p>
+                <p class="XMLbutton"><a href="../XML/PutACurseOnMyEnemyEng.xml">Put A Curse on My Enemy - English</a></p>
+            </div>
+            <h1>The Translation</h1>
+            <p>The translation for "Put a Curse On My Enemy" is a pastiche of the translations of Susan Einbinder, Ellman Crasnow and Bente Elsworth, and my own basic knowledge of Hebrew; I have used my own discretion as to poetic tone and form.</p>
+            <h1>Why Meir of Norwich?</h1>
+            <p>At the suggestion from Dr. Ian Cornelius of Loyola University Chicago I read through the 2012 book “Into the Light,” which is the first full translation of all of Meir’s poems into English.  From there, I became fascinated with the solitary Jewish poet from Medieval England.  Where did these poems come from?  Why were they written?  Who was Meir of Norwich? Through hours of Googling and searching, I found the original manuscript in the Vatican Digital Library.  From there, I saught after any an all scholarship on Meir, Medieval Hebrew poetry, and the history of Medieval English Jews.  Unfortunately, the majority of scholarship around Meir of Norwich’s poetry focuses on the state of Jewish persecution in Medieval England and his poetic response to it, as opposed to anything concrete about the man or the manuscript.  The scholarship concerning Meir, the manuscript, and their history, is very linear.  One book leads to the next, and each successive book or article references the preceding, with barely any branching.  The conclusion I finally reached was that this linear scholarship was inevitable when so little original content remains.<br><br>There is only a single poet, with a single manuscript.  Nothing else remains.  I hope here to represent his poetry, and the voice of Medieval English Jews, in an honest and faithful way that allows a modern audience to connect the lone Anglo-Jewish Medieval poet.</p>
+
+            <h1>Future of the Project</h1>
+            <p>The next steps in development are finishing the XML encoding of the poems.  After the encoding is completed, I would like to make several different views for each poem, including a manuscript, scribal, and poetic view.  While there is limited information about the contents of the poems, I would like to add glosses and notes where applicable.  The section on historical background on the website needs to be updated, and I would like to include more primary sources from the period of history.  I would also like to attempt again to find either a copy or a scan of the book in which Abraham Berliner first wrote about Meir of Norwich when he discovered the manuscript.  So far attempts to find the original in any form have been unsuccessful, but I think it is an important piece in the timeline of the poetry and would like to have it included in the edition in one way or another.  As there is only once source for English translation of the other three poems, I would like to hire a translator to do a basic translation, from which I can work to find that balance between pure translation and poetic form and style.  I would like to have the manuscript images available for viewing alongside the translations, which involves paying the Vatican Library for the image rights.
+</p>
+
+            <p>I will also further develop the visual representation of the poems.  As they are presented right now, they are divided into stanzas that are familiar to a modern audience.  This is not how they appear in the original manuscript, however.  I would like to create multiple views available to the user, along with images of the original manuscript.</p>
+
+            <h1>Bibliography</h1>
+            <ol>
+                <li>Abrams, Rebecca. “The Jews of Medieval England.” HistoryExtra, February 27, 2019. https://www.historyextra.com/period/medieval/the-jews-of-medieval-england/.</li>
+                <li>Bale, Anthony. “Poems of Protest: Meir Ben Elijah and the Jewish People of Early Britain.” Our Migration Story: The Making of Britain. Accessed December 4, 2019. https://www.ourmigrationstory.org.uk/oms/put-a-curse-on-my-enemies-meir-ben-elijah-and-the-jews-of-early-norwich.</li>
+                <li>Beit-Arié Malachi. “Some Technical Practices Employed in Hebrew Dated Medieval Manuscripts.” Codicologica 2 (1978): 78–92.</li>
+                <li>Beit-Arié Malachi. Hebrew Codicology: Tentative Typology of Technical Practices Employed in Hebrew Dated Medieval Manuscripts. Jerusalem: Israel Academy of Sciences and Humanities, 1981.</li>
+                <li>Beit-Arié Malachi.  The Makings of the Medieval Hebrew Book: Studies in Palaeology and Codecolody. Hebrew University: Magnes Press, 1993.</li>
+                <li>Beit-Arié Malachi. “Paleographical Identificaton of Hebrew Manuscripts: Methodology and Practice.” Jewish Art, 1987, 15–44.</li>
+                <li>Beit-Arié Malachi. Hebrew Manuscripts of East and West: towards a Comparative Codicology. London: British Library, 1994.</li>
+                <li>Bet-Arye Malʼak̲i, and Banît Mĕnaḥēm. The Only Dated Medieval Hebrew Manuscript Written in England (1189 CE) and the Problem of Pre-Expulsion Anglo-Hebrew Manuscripts. London: Valmadonna Trust Library, 1985.</li>
+                <li>Cameron. “Meir of Norwich.” Literary Norfolk. Accessed December 4, 2019. https://www.literarynorfolk.co.uk/Norwich/meir_of_norwich.htm.</li>
+                <li>Cohen, Jeffrey J. “The Flow of Blood in Medieval Norwich.” Speculum 79, no. 1 (January 2004): 40–65.</li>
+                <li>"Cotton MS Nero D II" British Library Digitised Manuscripts.  Accessed December 4, 2019. http://www.bl.uk/manuscripts/Viewer.aspx?ref=cotton_ms_nero_d_ii_f215r</li>
+                <li>Crasnow, Ellman, Bente Elsworth, and Keiron Pim. Into the Light: the Medieval Hebrew Poetry of Meir of Norwich. Norwich: East Publishing, 2013.</li>
+                <li>Einbinder, Susan L. “Meir b. Elijah of Norwich: Persection and Poety among Medieval English Jews.” Journal of Medieval History 26, no. 2 (2000): 145–62. https://doi.org/10.1016/S0304-4181(00)00004-X.</li>
+                <li>Krummel, Miriamne Ara. Crafting Jewishness in Medieval England Legally Absent, Virtually Present. New York: Palgrave Macmillan, 2011.</li>
+                <li>Krummel, Miriamne Ara. “Meir b. Elijah of Norwich and the Margins of Memory.” Shofar 27, no. 4 (2009): 1–23.</li>
+                <li>Lipman, Vivian David. The Jews of Medieval Norwich. London: Jewish historical Society of England, 1967.</li>
+                <li>“Meir Ben Elijah of Norwich.” Encyclopaedia Judaica. Encyclopedia.com, December 3, 2019. https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/meir-ben-elijah-norwich.</li>
+                <li>Richler, Benjamin, and Beit-Arié Malachi. Hebrew Manuscripts in the Vatican Library: Catalogue. Città del Vaticano: Biblioteca apostolica Vaticana, 2008.</li>
+                <li>Self, Cam. “Ode to Light by Meir Ben Elijah (Meir of Norwich).” Flickr. Yahoo!, February 23, 2011. https://www.flickr.com/photos/cameron_self/4605922827.</li>
+                <li>“Vat.ebr.402.” DigiVatLib. Accessed December 4, 2019. https://digi.vatlib.it/view/MSS_Vat.ebr.402.</li>
+                <li>Yardeni, Ada. The Book of the Hebrew Script: History, Palaeography, Script Styles, Calligraphy and Design. Jerusalem: Carta, 1997.</li>
+            </ol>
+        </div>
+    </body>
+</html>

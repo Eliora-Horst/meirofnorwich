@@ -1,0 +1,74 @@
+.mainSection{
+	display: flex;
+	background-color: #2d79ac; 
+}
+.sidebar{
+	background-color: #2d79ac; 
+	flex: 0 0 25%;
+	border-right: 1px solid #1a4461;
+}
+
+.sidebar ul{
+	margin: 20px;
+	width: 100%;
+	border-left: 2px solid white;
+	padding: 2px;
+}
+.sidebar li>a{
+	font-family: "David Libre", serif;
+	font-size: 22px;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+.sidebar li>a:hover{
+	width: 100%;
+	background-color: white;
+	color: #2d79ac;
+}
+.sidebar li{
+	list-style-type: none;
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.spacer{
+	height: 45px;
+	width: 25%;
+	background-color: #2d79ac; 
+	border-top: 1px solid #1a4461;
+	border-right: 1px solid #1a4461;
+}
+.mainContent{
+	flex:1;
+	background-color: #f6f6f6;
+	padding: 25px;
+	font-family: "David Libre", serif;
+}
+.mainContent p{
+	font-size: 20px;
+}
+.mainContent h1{
+	border-bottom: 2px solid #2d79ac;
+	width: 50%;
+	padding-left: 20px;
+	font-size: 50px;
+	margin-top: 35px;
+}
+#quote{
+	margin-left: 9%;
+	padding-left: 10px;
+	width: 75%;
+	border-left: 2px solid #1a4461;
+
+}
+#upper-quote{
+	margin-left: 33%;
+	padding-left: 25px;
+	width: 50%;
+	border-left: 2px solid #1a4461;
+
+}
+.mainContent h2{
+	padding-left: 15px;
+}

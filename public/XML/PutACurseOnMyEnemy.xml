@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Put A Curse On My Enemy</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Unknown</publisher>
+            <pubPlace>Unknown, possibly France</pubPlace>
+            <date>c 1300</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This poem appears on ff. 116r in MSS Vat.ebr.402</p>
+            <p>Written in Hebrew, with Ashkenazic semi-cursive scripts.</p>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Vatican Digital Library</repository>
+                  <idno>Vat.ebr.402</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>Parchment</support>
+                        <extent>
+                           <measure unit="ff" quantity="125">125 ff in the manuscript.</measure>
+                        </extent>
+                        <dimensions type="page" unit="millimeter">
+                           <height>290</height>
+                           <width>240</width>
+                        </dimensions>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2">In two columns</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Written in at least four distinct hands.</p>
+                     <p>This poem was written by a scribe who gave no attribution to themselves.</p>
+                  </handDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <p>Manuscript was written and compiled approximately in 1300.</p>
+                        <p>Most likely written in France.</p>
+                        <p>There is no history of the manuscript between this earliest date
+                        and 1887, when the manuscript was discovered in the Vatican Library by 
+                        Abraham Berliner.</p>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <text>
+      <body>
+         <lg xml:id="Curse.Heb.01" type="stanza">
+            <l xml:id="Curse.Heb.01.01">,אוֹיְבִי בִּמְאֵירָה תִקב, כִּי כָל אָח יָעקׄב</l>
+            <l xml:id="Curse.Heb.01.02">,מָתַי תּׄאמַר לְבֵית יַעֲקוֹב לְכוּ וְנַלְכָה בְּאוֹר</l>
+            <l xml:id="Curse.Heb.01.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.02" type="stanza">
+            <l xml:id="Curse.Heb.02.01">,אֶת סְגוֹר הַלְבָבוֹת קָרַע, לְבָא בְשִׁמְךָ הֵרַע</l>
+            <l xml:id="Curse.Heb.02.02">,טוֹב קִוִיתִי וְיָבֹא רָע, וַאֲיַחֲלָה לְאוֹר</l>
+            <l xml:id="Curse.Heb.02.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.03" type="stanza">
+            <l xml:id="Curse.Heb.03.01">,לָעוּ דִבְרֵי כָּל חׄזֶה, כִּי צָר בִנְךָ יִבְזֶה</l>
+            <l xml:id="Curse.Heb.03.02">,עַד כִּי לֹא יֵדַע אֵיזֶה הַדָּרָךְ יֵחָלֶק אוֹר</l>
+            <l xml:id="Curse.Heb.03.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.04" type="stanza">
+            <l xml:id="Curse.Heb.04.01">,לָאִינוּ בְאַדְמַת נוֹשִׁים, וְנִשְׁמַע הֶרְפַּת אֲנָשִׁים</l>
+            <l xml:id="Curse.Heb.04.02">,וַאֲנַחְנוּ מַחְשִׁים וְחִכִּינוּ עַד אוֹר</l>
+            <l xml:id="Curse.Heb.04.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.05" type="stanza">
+            <l xml:id="Curse.Heb.05.01">,יַכְבִּידוּ אֶת עוֹלֵינוּ, וְיִכָלוּ עָלֵינוּ</l>
+            <l xml:id="Curse.Heb.05.02">,תָּמִיד יׄאמְרוּ עָלֶינוּ , נָבוֹזָה בָהֶם עַד אוֹר</l>
+            <l xml:id="Curse.Heb.05.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.06" type="stanza">
+            <l xml:id="Curse.Heb.06.01">,יֵז עַל בְּגָדֶיךָ נִצְחָם, כִּי לֵב רַעְיָתְךָ יַחַם</l>
+            <l xml:id="Curse.Heb.06.02">,אַךְ עַל זׄאת תִּתְנָחֶם, אָדׄנֶיהָ שָׁם עַד הָאוֹר</l>
+            <l xml:id="Curse.Heb.06.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.07" type="stanza">
+            <l xml:id="Curse.Heb.07.01">,הֲשָׁכַחְתָּ אֵלִי חַנוֹת, מָתַי תֶּאֱסׄף הַמַחֲנוֹת</l>
+            <l xml:id="Curse.Heb.07.02">,הַמְפֻזָרִים בְכָל ּּפִּנוֹת כְּעוּלָלִים לֹא רָאוּ אוֹר</l>
+            <l xml:id="Curse.Heb.07.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.08" type="stanza">
+            <l xml:id="Curse.Heb.08.01">,הָשֵׁב הַמֶּלֶךְ נִדְחוֹ, הָרַח רֵיחַ נִיחוֹחוֹ</l>
+            <l xml:id="Curse.Heb.08.02">,צָרִים מַבְאִישִׁים רֵיחוֹ, נַצַח לֹא יִרְאוּ אוֹר</l>
+            <l xml:id="Curse.Heb.08.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.09" type="stanza">
+            <l xml:id="Curse.Heb.09.01">,וְאִם יָסַפְתָ לְעַנּוֹתוֹ , הַרְבֵּה חֶסֶד לְחַנּוֹתוֹ</l>
+            <l xml:id="Curse.Heb.09.02">,כִּי נוֹאָשׁ מִמְּעוֹנָתוֹ, על דְּרָכֶיךָ נָגַהּ אוֹר</l>
+            <l xml:id="Curse.Heb.09.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.10" type="stanza">
+            <l xml:id="Curse.Heb.10.01">,וִיבוֹשֵׁשׁ חֶזְיוֹן סוֹדָיו, וְיִתַּמּוּ כָּל מוֹעֲדָיו</l>
+            <l xml:id="Curse.Heb.10.02">,וְיִרְפּוּ לָנוּ יָדָיו, קָטׄן וְגָדוֹל עַד אוֹר</l>
+            <l xml:id="Curse.Heb.10.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.11" type="stanza">
+            <l xml:id="Curse.Heb.11.01">,חֶזְיונו אָם יִסְתַּתֵּר, וְאֵין לְחֲלוֹמוֹתָיו פּוֹתֵר</l>
+            <l xml:id="Curse.Heb.11.02">,מַדּוּעַ הוֹד הַכֶּתֶר, נוֹתַר לְנָבָל עַד אוֹר</l>
+            <l xml:id="Curse.Heb.11.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.12" type="stanza">
+            <l xml:id="Curse.Heb.12.01">,חָטָאיו אִם הֶן הֶעֱבִירוּ, צָרָיו לָמָּה יִתְגַרוּ</l>
+            <l xml:id="Curse.Heb.12.02">,אֲשֶׁר פִימוֹ גֵיאוּת דִּבְּרוֹ, הֵמָה הָיוּ בְּמוֹרְדֵי אוֹר</l>
+            <l xml:id="Curse.Heb.12.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.13" type="stanza">
+            <l xml:id="Curse.Heb.13.01">,זֵרוּהוּ בְּכָל קְרָנוֹת, וַיְקַו מַשָׁאוֹת צְפוּנוֹת</l>
+            <l xml:id="Curse.Heb.13.02">,כִּי אַנְשֵׁי הַחְְֶזְיוֹנוֹת, חִתְּמוֹ לׄא יָדְעוּ אוֹר</l>
+            <l xml:id="Curse.Heb.13.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.14" type="stanza">
+            <l xml:id="Curse.Heb.14.01">,זַדִים כִּתְרוֹ הִפִּילוּ, וּלְכָלוֹתוֹ הֶעְפִּלוּ</l>
+            <l xml:id="Curse.Heb.14.02">,וַיִתְּנוּהוּ בְּבֵית הַכְּלוּא, וּבְנִשְׁפּוֹ יְקַו לְאוֹר</l>
+            <l xml:id="Curse.Heb.14.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.15" type="stanza">
+            <l xml:id="Curse.Heb.15.01">,קָרֵב קִצּוֹ לְהַעֲלוֹתוֹ, טֶרֶם יׄאבַד בְּגָלוּתוֹ</l>
+            <l xml:id="Curse.Heb.15.02">,כִּי יִתְנַשְּׁאוּ לְכַלּוֹתוֹ, שַׂמִים חֹשֶׁךְ לְאוֹר</l>
+            <l xml:id="Curse.Heb.15.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.16" type="stanza">
+            <l xml:id="Curse.Heb.16.01">,קָוּׄה קְוָּה כָּל יָמָיו, יוֹם אַחַר יוֹם נִיחוּמָיו</l>
+            <l xml:id="Curse.Heb.16.02">,אַדִיר נוֹרָא בִמְרוֹמָיו , מִשְׁפָּטוֹ יִתֵּן לָאוֹר</l>
+            <l xml:id="Curse.Heb.16.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+         <lg xml:id="Curse.Heb.17" type="stanza">
+            <l xml:id="Curse.Heb.17.01">,אִם נְתַתָּנוּ בֵּין אוֹיְבִי, קוּמָה לָרִיב אֶת רִיבִי</l>
+            <l xml:id="Curse.Heb.17.02">,הָקֵם מֶמְשֶׁלֶת נְדִיבִי, בְּאוֹרךָ נִרְאֶה אוֹר</l>
+            <l xml:id="Curse.Heb.17.03">.אַדִּיר אַתָּה וְנָאוֹר, מַחְשַׁכִּים תְּסוֹבֵב לְאוֹר</l>
+         </lg>
+      </body>
+  </text>
+</TEI>

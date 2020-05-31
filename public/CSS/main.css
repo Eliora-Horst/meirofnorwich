@@ -1,0 +1,223 @@
+
+body{
+	font-family: 'Suez One', serif;
+	padding: 0px;
+	margin: 0px;
+	background-color: #f6f6f6;
+}
+.lines{
+	margin: 2px;
+}
+table{
+	width: 80%;
+	margin-left: 10%;
+	padding: 25px;
+}
+.engTitle{
+	font-family: "David Libre", serif;
+	font-weight: bolder;
+}
+
+.mainContainer{
+	width: 75%;
+	margin:auto;
+	padding: 10px;
+	overflow: hidden;
+}
+.poemEnglish{
+	font-family: "David Libre", serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.poemHebrew > .lines{
+	text-align: right;
+	font-size: 18px;
+}
+.lineNumber{
+	vertical-align: text-top;
+}
+.poemTitle{
+	font-size: 22px;
+	text-align: center;
+	padding: 15px;
+}
+
+.topNav{
+	width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+    background-image: url("../images/titlebackground.png");
+    border-bottom: 5px solid #2d79ac;
+    background-position: top right;
+}
+.topNav nav{
+	display: block;
+	height: 200px;
+	width: 100%;
+}
+
+.mainBody{
+	padding: 10px 10%;
+	padding-top: 0;
+}
+.manHeader{
+	font-size: 50px;
+	padding: 15px;
+	width: 50%;
+	border-bottom: 2px solid #2d79ac; 
+	font-family: "David Libre", serif;
+}
+.spacer{
+	height: 45px;
+	width: 25%;
+}
+.manuscript{
+	font-family: "David Libre", serif;
+}
+.manuscript h1{
+	padding-top: 10px;
+}
+.manuscript h2{
+	padding-left: 50px;
+	padding-top: 10px;
+}
+.manuscript p{
+	font-size: 20px;
+	padding: 15px;
+}
+.manuscript ul{
+	margin: 0 0 0 5%;
+	font-size:20px;
+}
+#quote{
+	margin-left: 9%;
+	padding-left: 10px;
+	width: 75%;
+	border-left: 2px solid #2d79ac;
+}
+.mainpage{
+	font-family: "David Libre", serif;
+	font-weight: lighter;
+}
+.mainpage h1{
+	font-size: 55px;
+	text-align:center;
+	padding-top: 25px;
+}
+.mainpage h3{
+	font-size: 30px;
+	width: 55%;
+	margin-left:35%;
+	padding-top: 8%;
+}
+
+#tallage{
+	width: 64%;
+	margin-left: 18%;
+}
+#tallage img{
+	border: 1px solid #dbdbdb;
+	width: 100%;
+}
+figcaption{
+	font-size: 12px;
+}
+
+.container{
+	width: 100%;
+}
+.one{
+	width: 25%;
+	float: left;
+}
+.one img{
+	width: 100%;
+}
+.two{
+	margin-left: 25%;
+}
+
+.containerHome{
+	width: 80%;
+	margin-left: 10%;
+}
+.oneHome{
+	width: 45%;
+	float: left;
+	margin: 20px;
+	margin-top: 0;
+}
+.oneHome img{
+	width: 100%;
+}
+
+.XMLbutton{
+	background-color: #2d79ac;
+	border-radius: 5px;
+	width: fit-content;
+	text-align: center;
+	margin: 5px;
+}
+.XMLbutton a{
+	padding: 20px;
+	font-size: 16px;
+	color: white;
+	font-family: "David Libre", serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+.buttons{
+	margin-bottom: 50px;
+	margin
+}
+
+.topNav table{
+	padding: 0;
+	margin: 0;
+	height: 200px;
+	width: 100%;
+}
+.topNav td{
+	vertical-align: bottom;
+	text-align: center;
+	transition: 0.18s;
+}
+.topNav td>a{
+	font-size: 30px;
+	text-decoration: none;
+	color: #2d79ac;
+	transition: 0.18s;
+	font-weight: bold;
+	font-family: "David Libre", serif;
+}
+.topNav table:first-child img{
+	width:100%;
+	display: block;
+}
+.topNav tr{
+	height: 200px;
+}
+
+.topNav table td:first-child{
+	width:26%;
+	padding-left: 20px;
+}
+.topNav table td:nth-child(2){
+	width:10%;
+}
+.topNav td:hover{
+	background-color: #2d79ac; 
+}
+.topNav td:hover a{
+	color: white;
+}
+.topNav table td:first-child:hover{
+	background: none;
+}
+.topNav table td:nth-child(2):hover{
+	background: none;
+}
+.mobile-menu{
+	display: none;
+}

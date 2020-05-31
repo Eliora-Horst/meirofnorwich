@@ -1,0 +1,86 @@
+@media only screen and (max-width: 800px) {
+	table{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+		position: relative;
+		background-color: white;
+		overflow: hidden;
+		border-bottom: 1px solid #0D2331;
+	}
+	.mobile-menu #myLinks{
+		display:  none;
+	}
+	.mobile-menu a{
+		font-family: "David Libre", serif;
+		color: #f6f6f6;
+		padding: 5px 5pc;
+		font-size: 20px;
+		display: block;
+		text-decoration: none;
+		height: 150px;
+		display: flex;
+   		align-items: center;
+   		justify-content: space-between;
+
+	}
+	.mobile-menu a.icon{
+		background: none;
+		background-image: url("../images/titlebackground.png");
+    	background-position: center right;
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+		display: flex;
+   		align-items: center;
+   		justify-content: space-between;
+   		color: black;
+   		padding-left: 100%;
+   		font-size: 45px;
+   		transition: 0.18s;
+	}
+	.mobile-menu #myLinks a:hover{
+		background-color: #ddd;
+		color: black;
+	}
+	.topNav{
+		height: 150px;
+	}
+	#myLinks a{
+		height: 45px;
+		font-size: 20px;
+		background-color: #1A4864;
+		transition: 0.15s;
+	}
+	.active{
+		width: 50%;
+		background-image: url("../images/LogoMobile.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	/*Historical Background*/
+	.one{
+		float: none;
+		width: auto;
+	}
+	.two{
+		margin-left: 0;
+	}
+	#upper-quote{
+		margin-left: 10%;
+		width: 75%;
+	}
+	#tallage{
+		width: 100%;
+		margin-left: 0;
+	}
+	.manuscript p{
+		padding: 0;
+	}
+	.manHeader{
+		width: 100%;
+	}
+}
