@@ -116,4 +116,13 @@
 		width: 70%;
 		margin-left: 15%;
 	}
+	.mainSection{
+		display: block;
+		padding-top: 1px;
+	}
+	.sidebar-mobile li{
+		list-style: none;
+		font-family: "David Libre", serif;
+		color: white;
+	}
 }
