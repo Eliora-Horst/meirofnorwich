@@ -85,22 +85,23 @@
 	.manHeader{
 		width: 100%;
 	}
-}
-/*Homepage*/
-.oneHome{
-	float: none;
-	width: 100%;
-	display: contents;
-	margin: 0;
-}
-.mainpage h3{
-	font-size: 15px;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-.mainpage h1{
-	font-size: 25px;
-	width: 80%;
-	margin-left: 10%;
+
+	/*Homepage*/
+	.oneHome{
+		float: none;
+		width: 100%;
+		display: contents;
+		margin: 0;
+	}
+	.mainpage h3{
+		font-size: 15px;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.mainpage h1{
+		font-size: 25px;
+		width: 80%;
+		margin-left: 10%;
+	}
 }

@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="/meirwebsite/css/main.css">
-        <link rel="stylesheet" type="text/css" href="/meirwebsite/css/poemStyle.css">
+        <!-- Style sheets and fonts -->
+        <link rel="stylesheet" type="text/css" href="/CSS/main.css">
+        <link rel="stylesheet" type="text/css" href="/CSS/mobile.css">
         <link href="https://fonts.googleapis.com/css?family=Suez+One&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Crimson+Text:700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Scripts -->
+        <script type="text/javascript" src="/JS/mobileMenu.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
+        <title>On the Termination of the Sabbath - The Poetry of Meir of Norwich</title>
     </head>
     <body>
         <div class="topNav">
-            <div id="logo">
-                <a href="/meirwebsite/meirMain.html">
-                    <img src="/meirwebsite/images/Logo.png" style="width:100%;">
-                </a>
-            </div>
             <nav>
-                <div>
-                    <ul>
-                        <li class="btn"><a href="/meirwebsite/thePoems.html">THE POEMS</a></li>
-                        <li class="btn"><a href="/meirwebsite/thePoet.html">THE POET</a></li>
-                        <li class="btn"><a href="/meirwebsite/theManuscript.html">THE MANUSCRIPT</a></li>
-                        <li class="btn"><a href="/meirwebsite/about.html">ABOUT</a></li>
-                    </ul>
+                <table>
+                    <tr>
+                        <td><a href="/">
+                            <img src="/images/Logo.png">
+                        </a></td>
+                        <td></td>
+                        <td><a href="/poems">THE POEMS</a></td>
+                        <td><a href="/poet">THE POET</a></td>
+                        <td><a href="/manuscript">THE MANUSCRIPT</a></td>
+                        <td><a href="/about">ABOUT</a></td>
+                    </tr>
+                </table>
+
+                <div class="mobile-menu">
+                    <a href="/" class="active"></a>
+                    <div id="myLinks">
+                        <a href="/poems">THE POEMS</a>
+                        <a href="/poet">THE POET</a>
+                        <a href="/manuscript">THE MANUSCRIPT</a>
+                        <a href="/about">ABOUT</a>
+                    </div>
+                    <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
                 </div>
             </nav>
         </div>
