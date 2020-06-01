@@ -104,4 +104,16 @@
 		width: 80%;
 		margin-left: 10%;
 	}
+	/*Poems*/
+	.sidebar{
+		display: none;
+	}
+	.sidebar-mobile{
+		display: block;
+		background-color: #2d79ac;
+		padding: 2px;
+		font-size: 15px;
+		width: 70%;
+		margin-left: 15%;
+	}
 }
