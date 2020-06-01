@@ -139,4 +139,22 @@
 		padding: 5px;
 		text-decoration: none;
 	}
+	.poemStyling{
+		padding: 0;
+		width: 90%;
+		margin-left: 5%;
+	}
+	.poemEnglish{
+		font-size: 10px;
+	}
+	.poemHebrew > .lines {
+		font-size: 10px;
+	}
+	.lineNumber{
+		font-size: 10px;
+	}
+	.poemTitle{
+		font-size: 12px
+		padding: 5px;
+	}
 }
