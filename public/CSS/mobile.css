@@ -38,7 +38,7 @@
    		justify-content: space-between;
    		color: black;
    		padding-left: 100%;
-   		padding-right: 5%;
+   		padding-right: 7%;
    		font-size: 45px;
    		transition: 0.18s;
 	}
@@ -108,22 +108,31 @@
 	.sidebar{
 		display: none;
 	}
+	.mainSection{
+		display: block;
+		padding-top: 1px;
+	}
+
 	.sidebar-mobile{
 		display: block;
 		background-color: #2d79ac;
 		padding: 2px;
-		font-size: 15px;
-		width: 70%;
+		font-size: 5px;
+		width: 90%;
 		margin-left: 15%;
-	}
-	.mainSection{
-		display: block;
-		padding-top: 1px;
 	}
 	.sidebar-mobile li{
 		list-style: none;
 		font-family: "David Libre", serif;
 		color: white;
+		padding: 9px;
+		border-bottom: 1px solid white;
+	}
+	.sidebar-mobile li:first-child{
+		border-top: 1px solid white;
+	}
+	.sidebar-mobile ul{
+		padding: 0;
 	}
 	.sidebar-mobile li>a {
 		font-size: 15px;
