@@ -125,4 +125,10 @@
 		font-family: "David Libre", serif;
 		color: white;
 	}
+	.sidebar-mobile li>a {
+		font-size: 15px;
+		color: white;
+		padding: 5px;
+		text-decoration: none;
+	}
 }
